@@ -3,13 +3,15 @@
     flex-direction: column;
     max-width: calc(100% - 2 * 148px);
     margin: 0px auto;
+    gap: 80px;
     align-items: center;
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1023px) {
     .places {
       max-width: calc(100% - 2 * 48px);
       margin: 88px auto;
+      gap: 73px;
     }
   }
   
@@ -20,10 +22,11 @@
     }
   }
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 424px) {
     .places {
       max-width: 100%;
       padding-top: 0;
       margin: 64px auto;
+      gap: 50px;
     }
 }
