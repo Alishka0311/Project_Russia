@@ -1,6 +1,7 @@
 .intro {
     width: calc(100% - 2* 148px);
     margin: 0 auto 0;
+    box-sizing: border-box;
   }
   
   @media screen and (max-width: 1278px) {
